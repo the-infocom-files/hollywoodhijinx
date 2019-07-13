@@ -1710,7 +1710,7 @@ comes" A ,INDIGO-CARD ", which drops in a spiral to the ground." CR>)
       (LDESC
 "You're in the chimney, above the fireplace. You can see a couple of
 holes here in the chimney where bricks used to be. The chimney continues
-upward and the fireplace is below.~")
+upward and the fireplace is below.")
       (FLAGS RLANDBIT EVERYBIT)  ;"WHY EVERYBIT?"
       (UP PER UP-CHIMNEY)
       (DOWN PER DOWN-CHIMNEY)
@@ -1722,7 +1722,7 @@ upward and the fireplace is below.~")
       (DESC "In the Chimney")
       (LDESC
 "You're inside the chimney. You can see a couple of holes here in the chimney
-where bricks used to be. The chimney continues upward and downward.~")
+where bricks used to be. The chimney continues upward and downward.")
       (FLAGS RLANDBIT)
       (UP PER UP-CHIMNEY)
       (DOWN PER DOWN-CHIMNEY)
@@ -1735,7 +1735,7 @@ where bricks used to be. The chimney continues upward and downward.~")
       (LDESC
 "You're standing in the chimney. There are a couple of holes here in the
 chimney where bricks used to be. This chimney doesn't lead any further
-down, only up.~")
+down, only up.")
       (FLAGS RLANDBIT)
       (UP PER UP-CHIMNEY)
       (CAPACITY 10) ;"don't light room when sun comes up"
