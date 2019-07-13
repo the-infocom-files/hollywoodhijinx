@@ -103,7 +103,7 @@ heading toward Johnny Carson's house." CR CR>
 is an elaborate garden. The stone walkway splits in three directions
 here: north, along the perimeter of the garden; south, around the side of
 the house; and west, where the walkway ends at a couple of steps leading
-up." CR)
+up.~")
       (NORTH TO NORTHEAST-JUNCTION)
       (WEST TO PATIO)
       (SOUTH PER TO-&-FROM-SOUTH-JUNCTION)
@@ -133,7 +133,7 @@ stone walkway." CR CR>)
 is an elaborate garden. The stone walkway splits in three directions
 here: north, along the perimeter of the garden; south, around the side
 of the house; and east, where the walkway ends at the foot of a couple of
-steps." CR)
+steps.~")
       (NORTH TO NORTHWEST-JUNCTION)
       (SOUTH PER TO-&-FROM-SOUTH-JUNCTION)
       (EAST TO PATIO)
@@ -412,7 +412,7 @@ you wading in the pond and paddled your behind?" CR>)
 which is part of the estate's hedge maze. The stone walkway splits in
 three directions here: north, along the dark and towering hedge; south,
 past the fragrant and inviting garden; and east, where the walkway cuts
-a straight and narrow path between the hedge and the garden." CR)
+a straight and narrow path between the hedge and the garden.~")
       (NORTH PER TO-&-FROM-CANNON)
       (SOUTH TO SOUTHWEST-JUNCTION)
       (EAST TO ENTRANCE-TO-MAZE)
@@ -1064,7 +1064,7 @@ grass leads west.")
 "You're about halfway down the steep staircase, which creaks under your
 weight. There are several steps missing here. It's quite a gap: probably
 more than you could jump across. On the other side of the gap, the stairs
-continue down. Climbing up the stairs returns to the landing." CR)
+continue down. Climbing up the stairs returns to the landing.~")
       (FLAGS RLANDBIT CAVEBIT ONBIT)
       (DOWN PER TO-BEACH)
       (NORTH PER TO-BEACH)
@@ -1189,7 +1189,7 @@ plow." CR CR>)>>
 "You're about halfway up the steep stairs. There are several steps of
 the stairs missing here. It's quite a gap: probably more than you could
 jump across. On the other side of the gap stairs continue up. Climbing down
-the stairs returns to the beach." CR)
+the stairs returns to the beach.~")
       (FLAGS RLANDBIT CAVEBIT ONBIT)
       (DOWN TO BOTTOM-LANDING)
       (UP PER FROM-LOWER-STAIRS)
@@ -1213,7 +1213,7 @@ north is a sandy beach, and steep stairs lead up a rocky cliff.")
       (WEST PER WALKWAY-TO-BOAT-DOCK)   
       (EAST
 "There's nothing interesting down on that part of the beach. Just a few
-nude beach parties." CR)
+nude beach parties.~")
       (FLAGS RLANDBIT CAVEBIT ONBIT)>
 
 <ROUTINE WALKWAY-TO-BOAT-DOCK ()

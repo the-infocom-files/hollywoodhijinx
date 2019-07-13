@@ -1036,7 +1036,7 @@ OOPS-INBUF, leaving the appropriate pointers in AGAIN-LEXV:"
 	 <SETG P-NUMBER .SUM>
 	 ,W?INTNUM>
 
-<GLOBAL P-NUMBER 0>
+;<GLOBAL P-NUMBER 0>
 <GLOBAL P-EXCHANGE 0>
 
 

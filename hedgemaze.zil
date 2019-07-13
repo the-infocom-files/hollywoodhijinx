@@ -1281,25 +1281,25 @@ CR CR "There is a hole in the ground here from your previous excavations.">
  ;"19" <BYTE 0>
 
  ;"20" <BYTE 0>
- ;"21" <BYTE ,X-S ,X-E>
+ ;"21" <BYTE <ORB ,X-S ,X-E>>
  ;"22" <BYTE 0>
  ;"23" <BYTE 0>
- ;"24" <BYTE ,X-N ,X-E> 
- ;"25" <BYTE ,X-S ,X-E> 
- ;"26" <BYTE ,X-N ,X-E>
- ;"27" <BYTE ,X-E ,X-S>
+ ;"24" <BYTE <ORB ,X-N ,X-E>>
+ ;"25" <BYTE <ORB ,X-S ,X-E>>
+ ;"26" <BYTE <ORB ,X-N ,X-E>>
+ ;"27" <BYTE <ORB ,X-E ,X-S>>
  ;"28" <BYTE 0> 
  ;"29" <BYTE 0> 
  ;"30" <BYTE 0> 
  ;"31" <BYTE ,X-N> 
- ;"32" <BYTE ,X-S ,X-E>
+ ;"32" <BYTE <ORB ,X-S ,X-E>>
  ;"33" <BYTE 0>
  ;"34" <BYTE 0> 
  ;"35" <BYTE 0>
  ;"36" <BYTE 0>
  ;"37" <BYTE 0>
  ;"38" <BYTE 0>
- ;"39" <BYTE ,X-N ,X-E>
+ ;"39" <BYTE <ORB ,X-N ,X-E>>
 
  ;"40" <BYTE 0>
  ;"41" <BYTE 0>
@@ -1324,33 +1324,33 @@ CR CR "There is a hole in the ground here from your previous excavations.">
 
  ;"60" <BYTE 0>
  ;"61" <BYTE ,X-W>
- ;"62" <BYTE ,X-S ,X-E>
- ;"63" <BYTE ,X-N ,X-E ,X-S>
- ;"64" <BYTE ,X-W ,X-E ,X-N> 
+ ;"62" <BYTE <ORB ,X-S ,X-E>>
+ ;"63" <BYTE <ORB ,X-N ,X-E ,X-S>>
+ ;"64" <BYTE <ORB ,X-W ,X-E ,X-N>>
  ;"65" <BYTE 0> 
  ;"66" <BYTE 0>
  ;"67" <BYTE 0>
- ;"68" <BYTE ,X-E ,X-S> 
+ ;"68" <BYTE <ORB ,X-E ,X-S>>
  ;"69" <BYTE 0> 
  ;"70" <BYTE 0> 
  ;"71" <BYTE 0> 
- ;"72" <BYTE ,X-W ,X-E ,X-N>
- ;"73" <BYTE ,X-S ,X-E>
+ ;"72" <BYTE <ORB ,X-W ,X-E ,X-N>>
+ ;"73" <BYTE <ORB ,X-S ,X-E>>
  ;"74" <BYTE 0> 
  ;"75" <BYTE 0>
- ;"76" <BYTE ,X-N ,X-E>
- ;"77" <BYTE ,X-S ,X-E>
+ ;"76" <BYTE <ORB ,X-N ,X-E>>
+ ;"77" <BYTE <ORB ,X-S ,X-E>>
  ;"78" <BYTE 0>
- ;"79" <BYTE ,X-W ,X-N>
+ ;"79" <BYTE <ORB ,X-W ,X-N>>
 
  ;"80" <BYTE 0>
  ;"81" <BYTE 0>
  ;"82" <BYTE 0>
  ;"83" <BYTE 0>
  ;"84" <BYTE 0> 
- ;"85" <BYTE ,X-W ,X-S ,X-E> 
+ ;"85" <BYTE <ORB ,X-W ,X-S ,X-E>>
  ;"86" <BYTE 0>
- ;"87" <BYTE ,X-N ,X-W>
+ ;"87" <BYTE <ORB ,X-N ,X-W>>
  ;"88" <BYTE 0> 
  ;"89" <BYTE 0> 
  ;"90" <BYTE 0> 
@@ -1366,34 +1366,34 @@ CR CR "There is a hole in the ground here from your previous excavations.">
 
  ;"100" <BYTE 0>
  ;"101" <BYTE ,X-S>
- ;"102" <BYTE ,X-W ,X-N>
+ ;"102" <BYTE <ORB ,X-W ,X-N>>
  ;"103" <BYTE 0>
  ;"104" <BYTE 0> 
  ;"105" <BYTE 0> 
  ;"106" <BYTE 0>
  ;"107" <BYTE 0>
  ;"108" <BYTE 0> 
- ;"109" <BYTE ,X-S ,X-E> 
+ ;"109" <BYTE <ORB ,X-S ,X-E>>
  ;"110" <BYTE 0> 
  ;"111" <BYTE 0> 
- ;"112" <BYTE ,X-N ,X-W>
- ;"113" <BYTE ,X-W ,X-S>
+ ;"112" <BYTE <ORB ,X-N ,X-W>>
+ ;"113" <BYTE <ORB ,X-W ,X-S>>
  ;"114" <BYTE 0> 
- ;"115" <BYTE ,X-N ,X-E>
+ ;"115" <BYTE <ORB ,X-N ,X-E>>
  ;"116" <BYTE 0>
- ;"117" <BYTE ,X-W ,X-S>
+ ;"117" <BYTE <ORB ,X-W ,X-S>>
  ;"118" <BYTE 0>
- ;"119" <BYTE ,X-N ,X-E>
+ ;"119" <BYTE <ORB ,X-N ,X-E>>
 
  ;"120" <BYTE 0>
  ;"121" <BYTE 0>
  ;"122" <BYTE 0>
  ;"123" <BYTE 0>
  ;"124" <BYTE 0> 
- ;"125" <BYTE ,X-W ,X-E ,X-S> 
+ ;"125" <BYTE <ORB ,X-W ,X-E ,X-S>>
  ;"126" <BYTE 0>
  ;"127" <BYTE 0>
- ;"128" <BYTE ,X-N ,X-W> 
+ ;"128" <BYTE <ORB ,X-N ,X-W>>
  ;"129" <BYTE 0> 
  ;"130" <BYTE 0> 
  ;"131" <BYTE 0> 
@@ -1408,23 +1408,23 @@ CR CR "There is a hole in the ground here from your previous excavations.">
 
  ;"140" <BYTE 0>
  ;"141" <BYTE ,X-S>
- ;"142" <BYTE ,X-E ,X-N>
- ;"143" <BYTE ,X-W ,X-S>
- ;"144" <BYTE ,X-W ,X-S ,X-N> 
- ;"145" <BYTE ,X-W ,X-E ,X-N> 
+ ;"142" <BYTE <ORB ,X-E ,X-N>>
+ ;"143" <BYTE <ORB ,X-W ,X-S>>
+ ;"144" <BYTE <ORB ,X-W ,X-S ,X-N>>
+ ;"145" <BYTE <ORB ,X-W ,X-E ,X-N>>
  ;"146" <BYTE 0>
  ;"147" <BYTE 0>
  ;"148" <BYTE 0> 
  ;"149" <BYTE 0> 
- ;"150" <BYTE ,X-S ,X-E> 
+ ;"150" <BYTE <ORB ,X-S ,X-E>>
  ;"151" <BYTE 0> 
  ;"152" <BYTE 0>
  ;"153" <BYTE 0>
- ;"154" <BYTE ,X-N ,X-E> 
+ ;"154" <BYTE <ORB ,X-N ,X-E>>
  ;"155" <BYTE 0>
- ;"156" <BYTE ,X-W ,X-S>
+ ;"156" <BYTE <ORB ,X-W ,X-S>>
  ;"157" <BYTE 0>
- ;"158" <BYTE ,X-N ,X-E>
+ ;"158" <BYTE <ORB ,X-N ,X-E>>
  ;"159" <BYTE 0>
 
  ;"160" <BYTE 0>
@@ -1436,7 +1436,7 @@ CR CR "There is a hole in the ground here from your previous excavations.">
  ;"166" <BYTE ,X-S>
  ;"167" <BYTE 0>
  ;"168" <BYTE 0> 
- ;"169" <BYTE ,X-N ,X-W> 
+ ;"169" <BYTE <ORB ,X-N ,X-W>>
  ;"170" <BYTE 0> 
  ;"171" <BYTE 0> 
  ;"172" <BYTE 0>
@@ -1450,23 +1450,23 @@ CR CR "There is a hole in the ground here from your previous excavations.">
 
  ;"180" <BYTE 0>
  ;"181" <BYTE ,X-E>
- ;"182" <BYTE ,X-W ,X-E ,X-S>
+ ;"182" <BYTE <ORB ,X-W ,X-E ,X-S>>
  ;"183" <BYTE 0>
  ;"184" <BYTE 0> 
- ;"185" <BYTE ,X-W ,X-N> 
+ ;"185" <BYTE <ORB ,X-W ,X-N>>
  ;"186" <BYTE 0>
  ;"187" <BYTE 0>
  ;"188" <BYTE 0> 
  ;"189" <BYTE 0> 
- ;"190" <BYTE ,X-W ,X-E ,X-S> 
+ ;"190" <BYTE <ORB ,X-W ,X-E ,X-S>>
  ;"191" <BYTE 0> 
  ;"192" <BYTE 0>
  ;"193" <BYTE ,X-N>
- ;"194" <BYTE ,X-W ,X-S ,X-E> 
- ;"195" <BYTE ,X-W ,X-N ,X-E>
- ;"196" <BYTE ,X-S ,X-E>
+ ;"194" <BYTE <ORB ,X-W ,X-S ,X-E>>
+ ;"195" <BYTE <ORB ,X-W ,X-N ,X-E>>
+ ;"196" <BYTE <ORB ,X-S ,X-E>>
  ;"197" <BYTE 0>
- ;"198" <BYTE ,X-W ,X-N>
+ ;"198" <BYTE <ORB ,X-W ,X-N>>
  ;"199" <BYTE 0>
 
  ;"200" <BYTE 0>
@@ -1478,7 +1478,7 @@ CR CR "There is a hole in the ground here from your previous excavations.">
  ;"206" <BYTE ,X-S>
  ;"207" <BYTE 0>
  ;"208" <BYTE 0> 
- ;"209" <BYTE ,X-N ,X-E> 
+ ;"209" <BYTE <ORB ,X-N ,X-E>>
  ;"210" <BYTE 0> 
  ;"211" <BYTE 0> 
  ;"212" <BYTE 0>
@@ -1492,34 +1492,34 @@ CR CR "There is a hole in the ground here from your previous excavations.">
 
  ;"220" <BYTE 0>
  ;"221" <BYTE 0>
- ;"222" <BYTE ,X-W ,X-S ,X-E>
+ ;"222" <BYTE <ORB ,X-W ,X-S ,X-E>>
  ;"223" <BYTE 0>
  ;"224" <BYTE 0> 
- ;"225" <BYTE ,X-N ,X-E> 
+ ;"225" <BYTE <ORB ,X-N ,X-E>>
  ;"226" <BYTE 0>
  ;"227" <BYTE 0>
  ;"228" <BYTE 0> 
  ;"229" <BYTE 0> 
- ;"230" <BYTE ,X-W ,X-S> 
+ ;"230" <BYTE <ORB ,X-W ,X-S>>
  ;"231" <BYTE 0> 
  ;"232" <BYTE 0>
  ;"233" <BYTE 0>
- ;"234" <BYTE ,X-W ,X-N> 
+ ;"234" <BYTE <ORB ,X-W ,X-N>>
  ;"235" <BYTE 0>
  ;"236" <BYTE 0>
- ;"237" <BYTE ,X-S ,X-E>
+ ;"237" <BYTE <ORB ,X-S ,X-E>>
  ;"238" <BYTE 0>
- ;"239" <BYTE ,X-W ,X-N>
+ ;"239" <BYTE <ORB ,X-W ,X-N>>
 
  ;"240" <BYTE 0>
  ;"241" <BYTE 0>
  ;"242" <BYTE 0>
  ;"243" <BYTE 0>
  ;"244" <BYTE 0> 
- ;"245" <BYTE ,X-W ,X-S ,X-E> 
+ ;"245" <BYTE <ORB ,X-W ,X-S ,X-E>>
  ;"246" <BYTE 0>
  ;"247" <BYTE 0>
- ;"248" <BYTE ,X-N ,X-E> 
+ ;"248" <BYTE <ORB ,X-N ,X-E>>
  ;"249" <BYTE 0> 
  ;"250" <BYTE 0> 
  ;"251" <BYTE 0> 
@@ -1533,25 +1533,25 @@ CR CR "There is a hole in the ground here from your previous excavations.">
  ;"259" <BYTE 0>
 
  ;"260" <BYTE 0>
- ;"261" <BYTE ,X-W ,X-S>
- ;"262" <BYTE ,X-N ,X-S ,X-W>
+ ;"261" <BYTE <ORB ,X-W ,X-S>>
+ ;"262" <BYTE <ORB ,X-N ,X-S ,X-W>>
  ;"263" <BYTE 0>
- ;"264" <BYTE ,X-N ,X-E> 
+ ;"264" <BYTE <ORB ,X-N ,X-E>>
  ;"265" <BYTE 0> 
  ;"266" <BYTE 0>
  ;"267" <BYTE 0>
  ;"268" <BYTE 0> 
- ;"269" <BYTE ,X-W ,X-S> 
+ ;"269" <BYTE <ORB ,X-W ,X-S>>
  ;"270" <BYTE 0> 
  ;"271" <BYTE 0> 
- ;"272" <BYTE ,X-N ,X-E>
- ;"273" <BYTE ,X-E ,X-S>
+ ;"272" <BYTE <ORB ,X-N ,X-E>>
+ ;"273" <BYTE <ORB ,X-E ,X-S>>
  ;"274" <BYTE 0> 
- ;"275" <BYTE ,X-N ,X-W>
+ ;"275" <BYTE <ORB ,X-N ,X-W>>
  ;"276" <BYTE 0>
- ;"277" <BYTE ,X-W ,X-S>
+ ;"277" <BYTE <ORB ,X-W ,X-S>>
  ;"278" <BYTE 0>
- ;"279" <BYTE ,X-N ,X-E>
+ ;"279" <BYTE <ORB ,X-N ,X-E>>
 
  ;"280" <BYTE 0>
  ;"281" <BYTE 0>
@@ -1559,8 +1559,8 @@ CR CR "There is a hole in the ground here from your previous excavations.">
  ;"283" <BYTE 0>
  ;"284" <BYTE 0> 
  ;"285" <BYTE 0> 
- ;"286" <BYTE ,X-E ,X-S>
- ;"287" <BYTE ,X-N ,X-E>
+ ;"286" <BYTE <ORB ,X-E ,X-S>>
+ ;"287" <BYTE <ORB ,X-N ,X-E>>
  ;"288" <BYTE 0> 
  ;"289" <BYTE 0> 
  ;"290" <BYTE 0> 
@@ -1575,25 +1575,25 @@ CR CR "There is a hole in the ground here from your previous excavations.">
  ;"299" <BYTE 0>
 
  ;"300" <BYTE 0>
- ;"301" <BYTE ,X-E ,X-S>
+ ;"301" <BYTE <ORB ,X-E ,X-S>>
  ;"302" <BYTE 0>
  ;"303" <BYTE 0>
- ;"304" <BYTE ,X-W ,X-N ,X-E> 
+ ;"304" <BYTE <ORB ,X-W ,X-N ,X-E>>
  ;"305" <BYTE 0> 
  ;"306" <BYTE 0>
  ;"307" <BYTE ,X-W>
- ;"308" <BYTE ,X-W ,X-S> 
+ ;"308" <BYTE <ORB ,X-W ,X-S>>
  ;"309" <BYTE 0> 
  ;"310" <BYTE 0> 
  ;"311" <BYTE ,X-N> 
  ;"312" <BYTE 0>
- ;"313" <BYTE ,X-W ,X-S>
+ ;"313" <BYTE <ORB ,X-W ,X-S>>
  ;"314" <BYTE 0> 
- ;"315" <BYTE ,X-N ,X-E>
- ;"316" <BYTE ,X-W ,X-S>
+ ;"315" <BYTE <ORB ,X-N ,X-E>>
+ ;"316" <BYTE <ORB ,X-W ,X-S>>
  ;"317" <BYTE 0>
  ;"318" <BYTE 0>
- ;"319" <BYTE ,X-W ,X-N>
+ ;"319" <BYTE <ORB ,X-W ,X-N>>
 
  ;"320" <BYTE 0>
  ;"321" <BYTE 0>
@@ -1617,25 +1617,25 @@ CR CR "There is a hole in the ground here from your previous excavations.">
  ;"339" <BYTE 0>
 
  ;"340" <BYTE 0>
- ;"341" <BYTE ,X-W ,X-S>
+ ;"341" <BYTE <ORB ,X-W ,X-S>>
  ;"342" <BYTE 0>
  ;"343" <BYTE 0>
- ;"344" <BYTE ,X-W ,X-N> 
- ;"345" <BYTE ,X-W ,X-S> 
- ;"346" <BYTE ,X-W ,X-E ,X-N>
- ;"347" <BYTE ,X-S ,X-E>
+ ;"344" <BYTE <ORB ,X-W ,X-N>>
+ ;"345" <BYTE <ORB ,X-W ,X-S>>
+ ;"346" <BYTE <ORB ,X-W ,X-E ,X-N>>
+ ;"347" <BYTE <ORB ,X-S ,X-E>>
  ;"348" <BYTE 0> 
  ;"349" <BYTE 0> 
  ;"350" <BYTE 0> 
- ;"351" <BYTE ,X-N ,X-E> 
- ;"352" <BYTE ,X-W ,X-S>
+ ;"351" <BYTE <ORB ,X-N ,X-E>>
+ ;"352" <BYTE <ORB ,X-W ,X-S>>
  ;"353" <BYTE 0>
- ;"354" <BYTE ,X-N ,X-E> 
- ;"355" <BYTE ,X-W ,X-E ,X-S>
+ ;"354" <BYTE <ORB ,X-N ,X-E>>
+ ;"355" <BYTE <ORB ,X-W ,X-E ,X-S>>
  ;"356" <BYTE 0>
  ;"357" <BYTE 0>
  ;"358" <BYTE 0>
- ;"359" <BYTE ,X-N ,X-E>
+ ;"359" <BYTE <ORB ,X-N ,X-E>>
 
  ;"360" <BYTE 0>
  ;"361" <BYTE 0>
@@ -1659,24 +1659,24 @@ CR CR "There is a hole in the ground here from your previous excavations.">
  ;"379" <BYTE 0>
 
  ;"380" <BYTE 0>
- ;"381" <BYTE ,X-S ,X-E>
- ;"382" <BYTE ,X-N ,X-E>
- ;"383" <BYTE ,X-S ,X-E>
+ ;"381" <BYTE <ORB ,X-S ,X-E>>
+ ;"382" <BYTE <ORB ,X-N ,X-E>>
+ ;"383" <BYTE <ORB ,X-S ,X-E>>
  ;"384" <BYTE 0> 
  ;"385" <BYTE 0> 
- ;"386" <BYTE ,X-W ,X-N>
+ ;"386" <BYTE <ORB ,X-W ,X-N>>
  ;"387" <BYTE 0>
- ;"388" <BYTE ,X-S ,X-E> 
+ ;"388" <BYTE <ORB ,X-S ,X-E>>
  ;"389" <BYTE 0> 
  ;"390" <BYTE 0> 
  ;"391" <BYTE 0> 
- ;"392" <BYTE ,X-S ,X-E>
+ ;"392" <BYTE <ORB ,X-S ,X-E>>
  ;"393" <BYTE ,X-N>
  ;"394" <BYTE 0> 
- ;"395" <BYTE ,X-W ,X-S ,X-E>
+ ;"395" <BYTE <ORB ,X-W ,X-S ,X-E>>
  ;"396" <BYTE 0>
  ;"397" <BYTE 0>
- ;"398" <BYTE ,X-N ,X-E>
+ ;"398" <BYTE <ORB ,X-N ,X-E>>
  ;"399" <BYTE 0>
 
  ;"400" <BYTE 0>
@@ -1702,24 +1702,24 @@ CR CR "There is a hole in the ground here from your previous excavations.">
 
  ;"420" <BYTE 0>
  ;"421" <BYTE 0>
- ;"422" <BYTE ,X-W ,X-S ,X-E>
- ;"423" <BYTE ,X-W ,X-N>
- ;"424" <BYTE ,X-S ,X-E> 
+ ;"422" <BYTE <ORB ,X-W ,X-S ,X-E>>
+ ;"423" <BYTE <ORB ,X-W ,X-N>>
+ ;"424" <BYTE <ORB ,X-S ,X-E>>
  ;"425" <BYTE 0> 
  ;"426" <BYTE 0>
- ;"427" <BYTE ,X-W ,X-N ,X-E>
- ;"428" <BYTE ,X-W ,X-S> 
+ ;"427" <BYTE <ORB ,X-W ,X-N ,X-E>>
+ ;"428" <BYTE <ORB ,X-W ,X-S>>
  ;"429" <BYTE 0> 
  ;"430" <BYTE 0> 
- ;"431" <BYTE ,X-W ,X-N> 
- ;"432" <BYTE ,X-W ,X-S>
+ ;"431" <BYTE <ORB ,X-W ,X-N>>
+ ;"432" <BYTE <ORB ,X-W ,X-S>>
  ;"433" <BYTE 0>
- ;"434" <BYTE ,X-W ,X-S ,X-N> 
- ;"435" <BYTE ,X-W ,X-N ,X-E>
- ;"436" <BYTE ,X-E ,X-S>
+ ;"434" <BYTE <ORB ,X-W ,X-S ,X-N>>
+ ;"435" <BYTE <ORB ,X-W ,X-N ,X-E>>
+ ;"436" <BYTE <ORB ,X-E ,X-S>>
  ;"437" <BYTE ,X-N>
- ;"438" <BYTE ,X-W ,X-S ,X-E>
- ;"439" <BYTE ,X-W ,X-S ,X-E ,X-N>
+ ;"438" <BYTE <ORB ,X-W ,X-S ,X-E>>
+ ;"439" <BYTE <ORB ,X-W ,X-S ,X-E ,X-N>>
 
  ;"440" <BYTE 0>
  ;"441" <BYTE ,X-W>
@@ -1744,23 +1744,23 @@ CR CR "There is a hole in the ground here from your previous excavations.">
 
  ;"460" <BYTE 0>
  ;"461" <BYTE 0>
- ;"462" <BYTE ,X-W ,X-E ,X-S>
+ ;"462" <BYTE <ORB ,X-W ,X-E ,X-S>>
  ;"463" <BYTE 0>
- ;"464" <BYTE ,X-W ,X-N ,X-S> 
- ;"465" <BYTE ,X-N ,X-S ,X-E> 
+ ;"464" <BYTE <ORB ,X-W ,X-N ,X-S>>
+ ;"465" <BYTE <ORB ,X-N ,X-S ,X-E>>
  ;"466" <BYTE 0>
- ;"467" <BYTE ,X-W ,X-N>
+ ;"467" <BYTE <ORB ,X-W ,X-N>>
  ;"468" <BYTE ,X-S> 
- ;"469" <BYTE ,X-E ,X-N> 
- ;"470" <BYTE ,X-E ,X-S> 
+ ;"469" <BYTE <ORB ,X-E ,X-N>>
+ ;"470" <BYTE <ORB ,X-E ,X-S>>
  ;"471" <BYTE 0> 
  ;"472" <BYTE 0>
  ;"473" <BYTE 0>
- ;"474" <BYTE ,X-N ,X-E> 
- ;"475" <BYTE ,X-W ,X-S ,X-E>
- ;"476" <BYTE ,X-W ,X-S ,X-N>
+ ;"474" <BYTE <ORB ,X-N ,X-E>>
+ ;"475" <BYTE <ORB ,X-W ,X-S ,X-E>>
+ ;"476" <BYTE <ORB ,X-W ,X-S ,X-N>>
  ;"477" <BYTE 0>
- ;"478" <BYTE ,X-N ,X-W>
+ ;"478" <BYTE <ORB ,X-N ,X-W>>
  ;"479" <BYTE 0>
 
  ;"480" <BYTE 0>
@@ -1787,36 +1787,36 @@ CR CR "There is a hole in the ground here from your previous excavations.">
  ;"500" <BYTE 0>
  ;"501" <BYTE 0>
  ;"502" <BYTE 0>
- ;"503" <BYTE ,X-E ,X-S>
- ;"504" <BYTE ,X-N ,X-E> 
+ ;"503" <BYTE <ORB ,X-E ,X-S>>
+ ;"504" <BYTE <ORB ,X-N ,X-E>>
  ;"505" <BYTE 0> 
  ;"506" <BYTE ,X-E>
- ;"507" <BYTE ,X-S ,X-E>
- ;"508" <BYTE ,X-E ,X-N> 
+ ;"507" <BYTE <ORB ,X-S ,X-E>>
+ ;"508" <BYTE <ORB ,X-E ,X-N>>
  ;"509" <BYTE 0> 
  ;"510" <BYTE 0> 
- ;"511" <BYTE ,X-S ,X-E> 
+ ;"511" <BYTE <ORB ,X-S ,X-E>>
  ;"512" <BYTE 0>
  ;"513" <BYTE 0>
- ;"514" <BYTE ,X-N ,X-W ,X-S> 
- ;"515" <BYTE ,X-W ,X-N ,X-S>
+ ;"514" <BYTE <ORB ,X-N ,X-W ,X-S>>
+ ;"515" <BYTE <ORB ,X-W ,X-N ,X-S>>
  ;"516" <BYTE 0>
- ;"517" <BYTE ,X-N ,X-E ,X-S>
+ ;"517" <BYTE <ORB ,X-N ,X-E ,X-S>>
  ;"518" <BYTE 0>
- ;"519" <BYTE ,X-W ,X-N>
+ ;"519" <BYTE <ORB ,X-W ,X-N>>
 
  ;"520" <BYTE 0>
- ;"521" <BYTE ,X-W ,X-S>
- ;"522" <BYTE ,X-N ,X-W>
+ ;"521" <BYTE <ORB ,X-W ,X-S>>
+ ;"522" <BYTE <ORB ,X-N ,X-W>>
  ;"523" <BYTE ,X-W>
- ;"524" <BYTE ,X-W ,X-S> 
- ;"525" <BYTE ,X-N ,X-W ,X-S> 
- ;"526" <BYTE ,X-W ,X-N>
+ ;"524" <BYTE <ORB ,X-W ,X-S>>
+ ;"525" <BYTE <ORB ,X-N ,X-W ,X-S>>
+ ;"526" <BYTE <ORB ,X-W ,X-N>>
  ;"527" <BYTE ,X-W>
  ;"528" <BYTE 0> 
- ;"529" <BYTE ,X-W ,X-S> 
+ ;"529" <BYTE <ORB ,X-W ,X-S>>
  ;"530" <BYTE 0> 
- ;"531" <BYTE ,X-N ,X-W ,X-E> 
+ ;"531" <BYTE <ORB ,X-N ,X-W ,X-E>>
  ;"532" <BYTE 0>
  ;"533" <BYTE 0>
  ;"534" <BYTE 0> 
@@ -1838,26 +1838,26 @@ CR CR "There is a hole in the ground here from your previous excavations.">
  ;"549" <BYTE 0> 
  ;"550" <BYTE 0> 
  ;"551" <BYTE 0> 
- ;"552" <BYTE ,X-E ,X-S>
+ ;"552" <BYTE <ORB ,X-E ,X-S>>
  ;"553" <BYTE 0>
  ;"554" <BYTE 0> 
- ;"555" <BYTE ,X-N ,X-S ,X-E>
- ;"556" <BYTE ,X-N ,X-E>
- ;"557" <BYTE ,X-E ,X-W ,X-S>
+ ;"555" <BYTE <ORB ,X-N ,X-S ,X-E>>
+ ;"556" <BYTE <ORB ,X-N ,X-E>>
+ ;"557" <BYTE <ORB ,X-E ,X-W ,X-S>>
  ;"558" <BYTE 0>
- ;"559" <BYTE ,X-N ,X-E>
+ ;"559" <BYTE <ORB ,X-N ,X-E>>
 
  ;"560" <BYTE 0>
- ;"561" <BYTE ,X-E ,X-S>
+ ;"561" <BYTE <ORB ,X-E ,X-S>>
  ;"562" <BYTE 0>
  ;"563" <BYTE 0>
  ;"564" <BYTE ,X-N> 
- ;"565" <BYTE ,X-E ,X-S> 
+ ;"565" <BYTE <ORB ,X-E ,X-S>>
  ;"566" <BYTE 0>
  ;"567" <BYTE 0>
- ;"568" <BYTE ,X-W ,X-N> 
- ;"569" <BYTE ,X-E ,X-S> 
- ;"570" <BYTE ,X-N ,X-E> 
+ ;"568" <BYTE <ORB ,X-W ,X-N>>
+ ;"569" <BYTE <ORB ,X-E ,X-S>>
+ ;"570" <BYTE <ORB ,X-N ,X-E>>
  ;"571" <BYTE 0> 
  ;"572" <BYTE 0>
  ;"573" <BYTE 0>
@@ -1881,8 +1881,8 @@ CR CR "There is a hole in the ground here from your previous excavations.">
  ;"590" <BYTE 0> 
  ;"591" <BYTE 0> 
  ;"592" <BYTE 0>
- ;"593" <BYTE ,X-S ,X-E>
- ;"594" <BYTE ,X-N ,X-E> 
+ ;"593" <BYTE <ORB ,X-S ,X-E>>
+ ;"594" <BYTE <ORB ,X-N ,X-E>>
  ;"595" <BYTE 0>
  ;"596" <BYTE 0>
  ;"597" <BYTE 0>
@@ -1891,24 +1891,24 @@ CR CR "There is a hole in the ground here from your previous excavations.">
 
  ;"600" <BYTE 0>
  ;"601" <BYTE 0>
- ;"602" <BYTE ,X-S ,X-E>
+ ;"602" <BYTE <ORB ,X-S ,X-E>>
  ;"603" <BYTE 0>
  ;"604" <BYTE 0> 
- ;"605" <BYTE ,X-W ,X-N ,X-S> 
+ ;"605" <BYTE <ORB ,X-W ,X-N ,X-S>>
  ;"606" <BYTE 0>
  ;"607" <BYTE 0>
  ;"608" <BYTE 0> 
- ;"609" <BYTE ,X-N ,X-W ,X-E> 
+ ;"609" <BYTE <ORB ,X-N ,X-W ,X-E>>
  ;"610" <BYTE 0> 
- ;"611" <BYTE ,X-W ,X-S> 
- ;"612" <BYTE ,X-W ,X-S ,X-N>
- ;"613" <BYTE ,X-N ,X-W>
+ ;"611" <BYTE <ORB ,X-W ,X-S>>
+ ;"612" <BYTE <ORB ,X-W ,X-S ,X-N>>
+ ;"613" <BYTE <ORB ,X-N ,X-W>>
  ;"614" <BYTE ,X-W> 
  ;"615" <BYTE 0>
- ;"616" <BYTE ,X-W ,X-S>
- ;"617" <BYTE ,X-W ,X-N>
- ;"618" <BYTE ,X-W ,X-S>
- ;"619" <BYTE ,X-N ,X-W>
+ ;"616" <BYTE <ORB ,X-W ,X-S>>
+ ;"617" <BYTE <ORB ,X-W ,X-N>>
+ ;"618" <BYTE <ORB ,X-W ,X-S>>
+ ;"619" <BYTE <ORB ,X-N ,X-W>>
 
  ;"620" <BYTE 0>
  ;"621" <BYTE 0>
@@ -1933,24 +1933,24 @@ CR CR "There is a hole in the ground here from your previous excavations.">
 
  ;"640" <BYTE 0>
  ;"641" <BYTE 0>
- ;"642" <BYTE ,X-S ,X-W>
+ ;"642" <BYTE <ORB ,X-S ,X-W>>
  ;"643" <BYTE 0>
  ;"644" <BYTE 0> 
  ;"645" <BYTE 0> 
  ;"646" <BYTE 0>
  ;"647" <BYTE 0>
  ;"648" <BYTE 0> 
- ;"649" <BYTE ,X-N ,X-W> 
+ ;"649" <BYTE <ORB ,X-N ,X-W>>
  ;"650" <BYTE 0> 
- ;"651" <BYTE ,X-E ,X-S> 
+ ;"651" <BYTE <ORB ,X-E ,X-S>>
  ;"652" <BYTE 0>
  ;"653" <BYTE 0>
  ;"654" <BYTE 0> 
- ;"655" <BYTE ,X-W ,X-N ,X-S>
- ;"656" <BYTE ,X-N ,X-S ,X-E>
+ ;"655" <BYTE <ORB ,X-W ,X-N ,X-S>>
+ ;"656" <BYTE <ORB ,X-N ,X-S ,X-E>>
  ;"657" <BYTE 0>
  ;"658" <BYTE 0>
- ;"659" <BYTE ,X-N ,X-E>
+ ;"659" <BYTE <ORB ,X-N ,X-E>>
 
  ;"660" <BYTE 0>
  ;"661" <BYTE 0>
@@ -1974,7 +1974,7 @@ CR CR "There is a hole in the ground here from your previous excavations.">
  ;"679" <BYTE 0>
 
  ;"680" <BYTE 0>
- ;"681" <BYTE ,X-W ,X-S>
+ ;"681" <BYTE <ORB ,X-W ,X-S>>
  ;"682" <BYTE 0>
  ;"683" <BYTE 0>
  ;"684" <BYTE 0> 
@@ -1983,16 +1983,16 @@ CR CR "There is a hole in the ground here from your previous excavations.">
  ;"687" <BYTE 0>
  ;"688" <BYTE 0> 
  ;"689" <BYTE 0> 
- ;"690" <BYTE ,X-W ,X-N ,X-S> 
- ;"691" <BYTE ,X-N ,X-W> 
+ ;"690" <BYTE <ORB ,X-W ,X-N ,X-S>>
+ ;"691" <BYTE <ORB ,X-N ,X-W>>
  ;"692" <BYTE ,X-S>
  ;"693" <BYTE 0>
  ;"694" <BYTE 0> 
  ;"695" <BYTE 0>
- ;"696" <BYTE ,X-W ,X-N>
+ ;"696" <BYTE <ORB ,X-W ,X-N>>
  ;"697" <BYTE ,X-S>
  ;"698" <BYTE 0>
- ;"699" <BYTE ,X-N ,X-W>>>
+ ;"699" <BYTE <ORB ,X-N ,X-W>>>>
 
 <GLOBAL HEDGE-CRASH
 	<LTABLE 0
