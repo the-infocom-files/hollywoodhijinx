@@ -81,7 +81,7 @@ box and pull up pants before striking.\"" CR>)
 	(MATCH-LIFE 2)
         (ACTION MATCH-F)>
 
-<ROUTINE MATCH-F ("AUX" WAXED)
+<ROUTINE MATCH-F ()
 	 <COND (<VERB? EXAMINE>
 		<TELL
 "It's the wooden, self-lighting variety of match. The " D ,PRSO>
