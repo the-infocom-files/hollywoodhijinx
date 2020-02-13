@@ -20,7 +20,7 @@ The following sources provide further information on Hollywood Hijinx:
 
 ## Version History
 
-Zarf's Obsessively Complete Infocom Catalog holds copies of the game files for every existing version of Hollywood Hijinx listed in the Infocom Fact Sheet. It also holds the source files for versions 37/861215 and a later, in progress, version.
+Zarf's Obsessively Complete Infocom Catalog holds copies of the game files for every existing version of Hollywood Hijinx listed in the Infocom Fact Sheet. It also holds the source files for version 37/861215 and a later, in progress, version.
 
 | Release | Serial | Story File                              | Zarf Sources                 | Historical Sources |
 | -------:|:------:|:---------------------------------------:|:----------------------------:|:------------------:|
