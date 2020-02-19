@@ -20,13 +20,11 @@ The following sources provide further information on Hollywood Hijinx:
 
 ## Version History
 
-Zarf's Obsessively Complete Infocom Catalog holds copies of the game files for every existing version of Hollywood Hijinx listed in the Infocom Fact Sheet. It also holds the source files for version 37/861215 and a later, in progress, version.
-
-| Release | Serial | Story File                              | Zarf Sources                 | Historical Sources |
-| -------:|:------:|:---------------------------------------:|:----------------------------:|:------------------:|
-|     235 | 861118 | [hollywoodhijinx-gamma-r235-s861118.z3] |                            - |                  - |
-|      37 | 861215 |        [hollywoodhijinx-r37-s861215.z3] |    [hollywoodhijinx-r37.zip] |      [revision 37] |
-|       - |      - |                                       - | [hollywoodhijinx-rlater.zip] |   [final revision] |
+| Release | Serial | Type | Story File                              | Obsessive Sources            | Historical Sources |
+| -------:|:------:|:----:|:---------------------------------------:|:----------------------------:|:------------------:|
+|     235 | 861118 |  DEV | [hollywoodhijinx-gamma-r235-s861118.z3] |                            - |                  - |
+|      37 | 861215 |  PUB |        [hollywoodhijinx-r37-s861215.z3] |    [hollywoodhijinx-r37.zip] |      [revision 37] |
+|       - |      - |  WIP |                                       - | [hollywoodhijinx-rlater.zip] |   [final revision] |
 
 [hollywoodhijinx-gamma-r235-s861118.z3]: https://eblong.com/infocom/gamefiles/hollywoodhijinx-gamma-r235-s861118.z3
 
