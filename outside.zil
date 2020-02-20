@@ -337,7 +337,7 @@ southeast and southwest.")
 	 <COND (<VERB? EXAMINE>
 		<TELL
 "It's the lovely flora you would expect in Aunt Hildegarde's
-reknowned garden." CR>)
+renowned garden." CR>)
 	       (<VERB? SMELL>
 		<TELL "Hmmm. What a lovely scent." CR>)>>
 

@@ -524,7 +524,7 @@ huge, over-teched " D ,COMPUTER " is here. There is a">
 	 <COND (<VERB? EXAMINE>
 		<TELL
 "It's the huge, massive, steel contraption of" A ,COMPUTER " that saved
-the earth from the maurading marketeers in \"Plan Nine from Marketing.\"
+the earth from the marauding marketeers in \"Plan Nine from Marketing.\"
 The front of" T ,COMPUTER " is covered with rows of lights. Beneath the
 lights are a slot and a button. There is a hopper on one end of it.
 The " D ,COMPUTER " is ">
