@@ -1615,7 +1615,7 @@ OOPS-INBUF, leaving the appropriate pointers in AGAIN-LEXV:"
 			    (T <SETG P-PRSI <BUT-MERGE ,P-PRSI>>)>)>)>
 	<RTRUE>>  
 
-<ROUTINE BUT-MERGE (TBL "AUX" LEN BUTLEN (CNT 1) (MATCHES 0) OBJ NTBL)
+<ROUTINE BUT-MERGE (TBL "AUX" LEN (CNT 1) (MATCHES 0) OBJ NTBL)
 	<SET LEN <GET .TBL ,P-MATCHLEN>>
 	<PUT ,P-MERGE ,P-MATCHLEN 0>
 	<REPEAT ()
@@ -1668,7 +1668,7 @@ OOPS-INBUF, leaving the appropriate pointers in AGAIN-LEXV:"
 
 <GLOBAL P-AND <>>
 
-<ROUTINE SNARFEM (PTR EPTR TBL "AUX" (BUT <>) LEN WV WRD NW (WAS-ALL? <>)
+<ROUTINE SNARFEM (PTR EPTR TBL "AUX" (BUT <>) WV WRD NW (WAS-ALL? <>)
 				     ONEOBJ) 
    ;"Next SETG 6/21/84 for WHICH retrofix"
    <SETG P-AND <>>
@@ -2058,8 +2058,8 @@ OOPS-INBUF, leaving the appropriate pointers in AGAIN-LEXV:"
 				    WAIT-FOR LOOK-ON>
 			     <DO-SL ,ROOMS 1 1>)>)>)>>
 
-<ROUTINE DO-SL (OBJ BIT1 BIT2 "AUX" BITS) 
-	;#DECL ((OBJ) OBJECT (BIT1 BIT2 BITS) FIX)
+<ROUTINE DO-SL (OBJ BIT1 BIT2) 
+	;#DECL ((OBJ) OBJECT (BIT1 BIT2) FIX)
 	<COND (<BTST ,P-SLOCBITS <+ .BIT1 .BIT2>>
 	       <SEARCH-LIST .OBJ ,P-TABLE ,P-SRCALL>)
 	      (T
@@ -2318,7 +2318,7 @@ OOPS-INBUF, leaving the appropriate pointers in AGAIN-LEXV:"
 	 <PUT .FROB 0 .CNT>
 	 .MSG>
 
-<ROUTINE PICK-REMOVE (OBJ FROB "AUX" L CNT RND MSG RFROB ROBJ)
+<ROUTINE PICK-REMOVE (OBJ FROB "AUX" L CNT RND MSG RFROB)
 	 <SET L <GET .FROB 0>>
 	 <SET CNT <GET .FROB 1>>
 	 <SET L <- .L 1>>
@@ -2501,7 +2501,7 @@ OOPS-INBUF, leaving the appropriate pointers in AGAIN-LEXV:"
 	 <PCLEAR>
 	 <RFATAL>>
 
-<ROUTINE FIND-NOT-HERE (TBL PRSO? "AUX" M-F OBJ)
+<ROUTINE FIND-NOT-HERE (TBL PRSO? "AUX" M-F)
 	<SET M-F <MOBY-FIND .TBL>>
 	<COND (,DEBUG
 	       <TELL "[Found " N .M-F " obj]" CR>)>

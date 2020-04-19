@@ -1582,7 +1582,7 @@ A ladder attached to the small door hangs down from the opening." CR>)
 		<TELL "closed">)>
 	 <TELL "." CR>>
 
-<ROUTINE V-OPEN ("AUX" F STR)
+<ROUTINE V-OPEN ()
 	 <COND (<FSET? ,PRSO ,ACTORBIT>
 		<NOT-A "surgeon">)
 	       (<OR <FSET? ,PRSO ,SURFACEBIT>
@@ -2227,7 +2227,7 @@ in the floor opens." CR>)>>
 	       (T
 		<TELL <PICK-ONE ,YUKS> CR>)>>
 
-<ROUTINE V-SHAKE ("AUX" X)
+<ROUTINE V-SHAKE ()
 	 <COND (<FSET? ,PRSO ,ACTORBIT>
 		<PERFORM ,V?ALARM ,PRSO>
 		<RTRUE>)
@@ -2261,7 +2261,7 @@ in the floor opens." CR>)>>
 	 <PERFORM ,V?SHOW ,PRSI ,PRSO>
 	 <RTRUE>>
 
-<ROUTINE V-SIT ("AUX" VEHICLE)
+<ROUTINE V-SIT ()
 	 <COND (<AND <PRSO? ,ROOMS>
 		     <GLOBAL-IN? ,SEAT ,HERE>>
 		<PERFORM ,V?BOARD ,SEAT>
@@ -2533,7 +2533,7 @@ under the model." CR>
 	 (T
 	  <RFALSE>)>>
 
-<ROUTINE V-TAKE-OFF ("AUX" WHERE)
+<ROUTINE V-TAKE-OFF ()
 	 <COND (<EQUAL? ,P-PRSA-WORD ,W?GET>
 		<PERFORM ,V?DISEMBARK ,PRSO>
 		<RTRUE>)

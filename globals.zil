@@ -231,7 +231,7 @@ missing." CR>)>>
 	(FLAGS ACTORBIT TOUCHBIT NARTICLEBIT)
 	(ACTION ME-F)>
 
-<ROUTINE ME-F ("OPTIONAL" (CONTEXT <>) "AUX" OLIT) 
+<ROUTINE ME-F ("OPTIONAL" (CONTEXT <>))
 	 <COND (<VERB? ALARM>
 		<TELL "You're already wide awake." CR>
 		<RTRUE>)

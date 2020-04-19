@@ -766,7 +766,7 @@ balls are welded together">
 	(FLAGS NDESCBIT BURNBIT)
         (ACTION FUSE-F)>
 
-<ROUTINE FUSE-F ("AUX" OBJ FLAME)
+<ROUTINE FUSE-F ("AUX" OBJ)
 	 <COND (<VERB? BURN LAMP-ON>
 		<COND (<SET-FLAME-SOURCE>
 		       <RTRUE>)
